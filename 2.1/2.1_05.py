@@ -1,0 +1,5 @@
+c = int(input())
+m = int(input())
+d = int(input())
+r = d - (c * m)
+print(r)

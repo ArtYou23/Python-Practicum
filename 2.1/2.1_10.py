@@ -1,0 +1,9 @@
+name = input()
+n = int(input())
+jk = n // 100
+ll = (n % 100 - n % 10) // 10
+lll = n % 10
+print("Группа №", jk, ".", sep='')
+print(lll, ". ", name, ".", sep='')
+print("Шкафчик: ", n, ".", sep='')
+print("Кроватка: ", ll, ".", sep='')

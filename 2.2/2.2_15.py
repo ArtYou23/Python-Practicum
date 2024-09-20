@@ -1,0 +1,13 @@
+i = input()
+ii = input()
+a = int(i[0])
+b = int(i[1])
+c = int(ii[0])
+d = int(ii[1])
+s = []
+s.append(a)
+s.append(b)
+s.append(c)
+s.append(d)
+dd = sorted(s)
+print(dd[3], (dd[2] + dd[1]) % 10, dd[0], sep='')
