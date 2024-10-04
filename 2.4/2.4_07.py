@@ -1,0 +1,5 @@
+n = int(input())
+for i in range(n):
+    for j in range(3 + i, 0, -1):
+        print("До старта", j, "секунд(ы)")
+    print("Старт ", i + 1, "!!!", sep='')
