@@ -1,0 +1,1 @@
+''.join([i for i in string.lower().title() if i.isupper()])
